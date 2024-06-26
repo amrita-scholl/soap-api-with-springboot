@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ns="http://localhost:8010/soap_api_with_springboot">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ns:getEmployeeRequest>
+            <ns:id>1</ns:id>
+        </ns:getEmployeeRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
